@@ -316,3 +316,5 @@ include "/usr/share/nano/pov.nanorc"
 
 ## XML-type files
 include "/usr/share/nano/xml.nanorc"
+
+include /usr/share/theolymp/nanorc/ALL.nanorc
