@@ -318,3 +318,5 @@ include "/usr/share/nano/pov.nanorc"
 include "/usr/share/nano/xml.nanorc"
 
 include /usr/share/theolymp/nanorc/ALL.nanorc
+include /usr/share/theolymp/nanorc/apache2.nanorc
+include /usr/share/theolymp/nanorc/apacheconf.nanorc
