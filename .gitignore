@@ -1,3 +1,4 @@
 *
 !/etc/bashrc
-!/usr/share/theolymp
+!/usr/share/theolymp*
+!usr/share/theolymp/*
