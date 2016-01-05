@@ -12,6 +12,7 @@ firewall-cmd --add-service=https  --permanent
 firewall-cmd --add-service=ftp   --permanent
 firewall-cmd --add-port=20/tcp   --permanent
 firewall-cmd --add-port=990/tcp   --permanent
+firewall-cmd --add-port=30000-30400/tcp   --permanent
 
 # SMTP/SMTPS
 firewall-cmd --add-service=smtp   --permanent
@@ -24,6 +25,8 @@ firewall-cmd --add-service=dns   --permanent
 # POP3/POP3S
 firewall-cmd --add-service=pop3s   --permanent
 firewall-cmd --add-port=110/tcp   --permanent
+
+
 
 # IMAP/IMAPS
 firewall-cmd --add-service=imaps   --permanent
