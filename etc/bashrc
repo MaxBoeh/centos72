@@ -90,4 +90,9 @@ if ! shopt -q login_shell ; then # We're not a login shell
     unset i
     unset -f pathmunge
 fi
-# vim:ts=4:sw=4
+
+# Set unicode mode for out-of-the-box PuTTY settings
+if [[ "$TERM" == xterm && "$LANG" == *.UTF-8 ]]; then
+    echo -ne "\e%G"
+    export NCURSES_NO_UTF8_ACS=1
+fi
