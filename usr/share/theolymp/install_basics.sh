@@ -1,5 +1,5 @@
 yum install -y epel-release
-yum install -y htop nano wget curl net-tools psmisc bash-completion firewalld bind-utils deltarpm yum-utils yum-cron tmux fail2ban
+yum install -y htop nano wget curl net-tools psmisc bash-completion firewalld bind-utils deltarpm yum-utils yum-cron tmux fail2ban screen traceroute
 
 chkconfig fail2ban on
 service fail2ban start
