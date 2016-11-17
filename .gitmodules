@@ -1,0 +1,3 @@
+[submodule "/usr/share/theolymp/nanorc"]
+	path = /usr/share/theolymp/nanorc
+	url = https://github.com/nanorc/nanorc
