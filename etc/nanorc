@@ -317,7 +317,4 @@ include "/usr/share/nano/pov.nanorc"
 ## XML-type files
 include "/usr/share/nano/xml.nanorc"
 
-include /usr/share/theolymp/nanorc/ALL.nanorc
-include /usr/share/theolymp/nanorc/apache2.nanorc
-include /usr/share/theolymp/nanorc/apacheconf.nanorc
-include /usr/share/theolymp/nanorc/ini.nanorc
+include /usr/share/theolymp/nanorc/build/ALL.nanorc
