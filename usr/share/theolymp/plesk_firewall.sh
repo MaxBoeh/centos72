@@ -33,3 +33,7 @@ firewall-cmd --add-service=imaps   --permanent
 firewall-cmd --add-port=143/tcp   --permanent
 
 firewall-cmd --reload
+
+
+# DROP portmapper
+firewall-cmd --add-port=111/tcp --add-port=111/udp --zone=drop --permanent
