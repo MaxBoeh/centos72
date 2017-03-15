@@ -5,3 +5,5 @@ chkconfig fail2ban on
 service fail2ban start
 chkconfig firewalld on
 service firewalld start
+
+[ -f ~/.tmux-top ] || cp /usr/share/theolymp/tmux-top ~/
