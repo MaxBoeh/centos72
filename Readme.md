@@ -2,6 +2,7 @@
 
 Checkout & installation for **Centos 8** 
 
+    dnf install -y git-core
     git clone https://github.com/theolymp/centos72.git /tmp/centos-baseconfiguration
     cp -rfv /tmp/centos-baseconfiguration/centos-8/* /
     cp -rfv /tmp/centos-baseconfiguration/shared/usr/share/theolymp /usr/share/
@@ -10,6 +11,7 @@ Checkout & installation for **Centos 8**
 
 Checkout & installation for **Centos 72**
 
+    dnf install -y git-core
     git clone https://github.com/theolymp/centos72.git /tmp/centos-baseconfiguration
     cp -rfv /tmp/centos-baseconfiguration/centos-72/* /
     cp -rfv /tmp/centos-baseconfiguration/shared/usr/share/theolymp /usr/share/

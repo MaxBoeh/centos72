@@ -1,9 +1,9 @@
-yum install -y epel-release
-yum install -y \
-    htop glaces \
+dnf install -y epel-release
+dnf install -y \
+    htop glances \
     nano vim wget curl net-tools psmisc \
-    firewalld fail2ban bind-utils deltarpm yum-utils yum-cron \
-    bash-completion tmux tmux-top wemux screen traceroute dnsutils
+    firewalld fail2ban bind-utils drpm dnf-automatic \
+    bash-completion tmux screen traceroute
 
 chkconfig fail2ban on
 service fail2ban start
