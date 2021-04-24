@@ -9,7 +9,7 @@ Checkout & installation for **Centos 8**
     chmod o+x /usr/share/theolymp/install_basics.sh
     /usr/share/theolymp/install_basics.sh
 
-Checkout & installation for **Centos 72**
+Checkout & installation for **Centos 7.2**
 
     dnf install -y git-core
     git clone https://github.com/theolymp/centos72.git /tmp/centos-baseconfiguration
