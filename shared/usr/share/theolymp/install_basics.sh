@@ -1,4 +1,5 @@
 dnf install -y epel-release
+dnf update -y
 dnf install -y \
     htop glances \
     nano vim wget curl net-tools psmisc \
